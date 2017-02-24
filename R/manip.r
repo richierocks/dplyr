@@ -15,6 +15,7 @@
 #' convert to an explicit variable with [tibble::rownames_to_column()].
 #'
 #' @family single table verbs
+#' @seealso \code{\link{select_helpers}}
 #' @param .data A tbl. All main verbs are S3 generics and provide methods
 #'   for [tbl_df()], [dtplyr::tbl_dt()] and [tbl_sql()].
 #' @param ... Logical predicates defined in terms of the variables in `.data`.
