@@ -2,7 +2,7 @@
 #'
 #' These functions allow you to select variables based on their names.
 #' * `starts_with()`: starts with a prefix
-#' * `ends_with()`: ends with a prefix
+#' * `ends_with()`: ends with a suffix
 #' * `contains()`: contains a literal string
 #' * `matches()`: matches a regular expression
 #' * `num_range()`: a numerical range like x01, x02, x03.
