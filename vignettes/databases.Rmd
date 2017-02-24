@@ -24,7 +24,7 @@ To get the most out of this chapter, you'll need to be familiar with querying SQ
 
 ## Getting started
 
-The easiest way to experiement with databases using dplyr is to use SQLite. This is because everything you need is already included in the R package. You won't need to install anything, and you won't need to deal with the hassle of setting up a database server. Doing so is really easy: just give the path and the ok to create a table.
+The easiest way to experiment with databases using dplyr is to use SQLite. This is because everything you need is already included in the R package. You won't need to install anything, and you won't need to deal with the hassle of setting up a database server. Doing so is really easy: just give the path and the ok to create a table.
 
 ```{r, eval = FALSE}
 my_db <- src_sqlite("my_db.sqlite3", create = TRUE)
